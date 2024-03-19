@@ -1,6 +1,6 @@
 - name: basic play 
   hosts: "{{ inc_hostname }}"
-
+  become: yes
   tasks: 
     - name: run seach_role
       ansible.builtin.include_role: 

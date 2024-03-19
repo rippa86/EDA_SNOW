@@ -1,0 +1,5 @@
+---
+- src: https://github.com/rippa86/update-inc.git
+  scm: git
+  version: main
+  name: update-inc

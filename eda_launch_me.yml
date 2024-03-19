@@ -1,0 +1,8 @@
+- name: basic play 
+  hosts: "{{ inc_ci_name }}"
+
+  tasks: 
+    - name: run seach_role
+      ansible.builtin.include_role: 
+        name: undate-inc
+    

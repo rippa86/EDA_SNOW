@@ -1,5 +1,5 @@
 - name: basic play 
-  hosts: "{{ inc_ci_name }}"
+  hosts: "{{ inc_hostname }}"
 
   tasks: 
     - name: run seach_role

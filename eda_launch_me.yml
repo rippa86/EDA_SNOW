@@ -4,5 +4,5 @@
   tasks: 
     - name: run seach_role
       ansible.builtin.include_role: 
-        name: undate-inc
+        name: update-inc
     
